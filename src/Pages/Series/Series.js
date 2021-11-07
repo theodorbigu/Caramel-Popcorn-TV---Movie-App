@@ -1,9 +1,9 @@
 import { makeStyles } from "@material-ui/core";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import CustomPagination from "../../components/CustomPagination";
-import Genres from "../../components/Genres";
-import SingleContent from "../../components/SingleContent";
+import CustomPagination from "../../components/CustomPagination/CustomPagination";
+import Genres from "../../components/Genres/Genres";
+import SingleContent from "../../components/SingleContent/SingleContent";
 import useGenres from "../../hooks/useGenre";
 
 const useStyles = makeStyles((theme) => ({

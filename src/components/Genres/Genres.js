@@ -2,6 +2,7 @@ import { Chip } from "@material-ui/core";
 import axios from "axios";
 import { useEffect } from "react";
 
+
 const Genres = ({
   type,
   genres,
@@ -47,8 +48,8 @@ const Genres = ({
             label={genre.name}
             style={{ margin: 2 }}
             size="small"
-            key={genre.id}
             color="primary"
+            key={genre.id}
             clickable
             onDelete={() => handleRemove(genre)}
           />

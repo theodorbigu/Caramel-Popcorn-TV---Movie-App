@@ -9,8 +9,8 @@ import {
 import { useEffect, useState } from "react";
 import SearchIcon from "@material-ui/icons/Search";
 import axios from "axios";
-import CustomPagination from "../../components/CustomPagination";
-import SingleContent from "../../components/SingleContent";
+import CustomPagination from "../../components/CustomPagination/CustomPagination";
+import SingleContent from "../../components/SingleContent/SingleContent";
 
 const Search = () => {
   const REACT_APP_API_KEY = "85bf419e2a5689bd392bcd437433803e";

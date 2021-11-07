@@ -1,8 +1,8 @@
 import { makeStyles } from "@material-ui/core";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import CustomPagination from "../../components/CustomPagination";
-import SingleContent from "../../components/SingleContent";
+import CustomPagination from "../../components/CustomPagination/CustomPagination";
+import SingleContent from "../../components/SingleContent/SingleContent";
 
 const setStyles = makeStyles((theme) => ({
   trending: {

@@ -1,10 +1,16 @@
 import { makeStyles } from "@material-ui/core";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import CustomPagination from "../../components/CustomPagination";
-import Genres from "../../components/Genres";
-import SingleContent from "../../components/SingleContent";
+import CustomPagination from "../../components/CustomPagination/CustomPagination";
+import Genres from "../../components/Genres/Genres";
+import SingleContent from "../../components/SingleContent/SingleContent";
 import useGenres from "../../hooks/useGenre";
+import {
+  caramel_light,
+  caramel_dark,
+  background,
+  text_color,
+} from "../../variables/variables";
 
 const useStyles = makeStyles((theme) => ({
   movies: {
@@ -20,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "2vw",
     padding: "4px",
     borderRadius: 50,
-    color: "white",
+    color: text_color,
     [theme.breakpoints.down("md")]: {
       fontSize: "6.4vw",
     },
